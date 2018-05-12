@@ -8,6 +8,9 @@ int32_t b;
 /*extensions*/
 };                          /**ul_sch_type is ULSCH channel which will carry other info.elements along with ULCCH
                             so it is created as structure**/
+/**testing for git**/
 typedef struct ul_sch_type ul_sch_type;
 
 #endif // MAC_H_INCLUDED
+
+////////
