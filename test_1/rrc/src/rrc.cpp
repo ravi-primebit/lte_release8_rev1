@@ -17,7 +17,7 @@ void rrc_init()
   /**printf("random value %ld",srb_0.rrc_connection_request.initial_ue_identity.randomValue);**/
   if (rrc_pdu.rrc_info_ele_for_ulcch_enum == rrc_conn_req_e)
   {
-    printf("\nSRB0 is passed to RLC");
+    printf("\nSRB0 is passed to RLC_1");
     /**here function is passed whose definition is in rlc.c**/
      /**here we are passing srb_0 argument because SRB carries message from RRC to RLC**/
      rlc_ul_ccch(rrc_pdu);
